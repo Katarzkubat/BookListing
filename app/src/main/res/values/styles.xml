@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="title" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingLeft">@dimen/padding_left</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="author" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/author</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingLeft">@dimen/padding_left</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="publisher" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/date</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingLeft">@dimen/padding_left</item>
+        <item name="android:textColor">@color/colorAdditional</item>
+    </style>
+
+    <style name="date" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/date</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingLeft">@dimen/padding_left</item>
+        <item name="android:textColor">@color/colorAdditional</item>
+    </style>
+
+    <style name="image">
+        <item name="android:layout_height">@dimen/image</item>
+        <item name="android:layout_width">@dimen/image</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignBottom">@id/edit</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginRight">@dimen/image_margin</item>
+        <item name="android:layout_marginBottom">@dimen/image_margin_bottom</item>
+    </style>
+
+    <style name="layout">
+        <item name="android:paddingBottom">@dimen/paddingBottom</item>
+        <item name="android:paddingTop">@dimen/paddingTop</item>
+    </style>
+
+</resources>
